@@ -1,45 +1,12 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Sider Menu Bar CSS</title>
+    <title>Exam</title>
     <link rel="stylesheet" href="exam.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <style>
-* {
-  box-sizing: border-box;
-}
-
-/* Create two equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 35%;
-  height: 450px;
-  margin-top: 1%;
-  margin-left: 50px;
-
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.name {
-  background: #042331;
-  width: 100%;
-  height: 100px;
-
-}
-.name h3 {
-  float: right;
-  padding-top: 15px;
-
-}
-</style>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
     <input type="checkbox" id="check">
@@ -63,18 +30,25 @@
         <div class="name">
             <h3><a href="#">Tharindu Dilshan Samarakoon</a></h3>
         </div>
-         <div class="title" style="font-size: 50px;">
- <center >Exam</center>
+        <div class="function">
+          <h1>EXAM</h1>
+        </div>
   </div>
-        <div class="row">
-  <div class="column" style="background-color:#aaa">
-    <h2>Column 1</h2>
-    <p>Some text..</p>
+  <div class="column">
+    <h3>Upload new online exams</h3>
+    <div class="form">
+    <form action="#">
+    Grade<input type="text" name="ertitle"><br>
+    Subject: <input type="" name="ergrade"></br>
+    Link: <input type="link" name="ergrade"></br>
+    <button type="" class="btn btn-danger" name="edit" style=" margin-top: 40px;
+    padding-left: -30px; padding-right: -30px;" >Edit</button>
+    <button type="submit" class="btn btn-primary" name="submit" style="margin-top: -40px; margin-bottom: 25px; margin-left: 150px;" >Submit</button>
+    </form>
   </div>
-  
+</div>
 </div>
     </section>
 
   </body>
 </html>
-    
