@@ -85,7 +85,7 @@ label #cancel{
   margin-left: 250px;
 }
 section{
-  background: url(WebContent\123.jpg) no-repeat;
+  background: url(123.png) no-repeat;
   background-position: center;
   background-size: cover;
   height: 100vh;
@@ -95,6 +95,39 @@ section{
 .name {
   float: right;
   padding-top: 17px;
+  color: black;
   padding-right: 5px;
   margin-left: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 35%;
+  height: 450px;
+  margin-top: 1%;
+  margin-left: 50px;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.name {
+  background: #042331;
+  width: 100%;
+  height: 100px;
+
+}
+.name h3 {
+  float: right;
+  padding-top: 15px;
+
 }
